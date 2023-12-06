@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="PizzaHomePage.aspx" />
+    <Content Include="PizzaOrderPage.aspx" />
     <Content Include="PizzaStyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="PizzaHomePage.aspx.designer.cs">
       <DependentUpon>PizzaHomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PizzaOrderPage.aspx.cs">
+      <DependentUpon>PizzaOrderPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PizzaOrderPage.aspx.designer.cs">
+      <DependentUpon>PizzaOrderPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

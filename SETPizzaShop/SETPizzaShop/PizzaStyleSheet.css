@@ -1,7 +1,26 @@
-﻿Body {
-    background-color: steelblue;
+﻿body {
+    background-image: url('Image/PizzaBackground2.jpg'); /* Path to the image file */
+    background-size: cover;
+    /*background-color: steelblue; Fallback color if the image is not found */
+    /*background-size: cover;*/ /* Cover the entire area of the body */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /*background-position: 20px 180px; /* Center the image in the body */
+    background-attachment: fixed; /* Optional: Fix the background image */
 }
 
+/*Body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('Image/PaperBackgrounds.jpg');*/ /* Path to the paper background image */
+/*background-size: cover;*/ /* Cover the entire area of the body */
+/*background-repeat: no-repeat;*/ /* Do not repeat the paper background image */
+/*opacity: 0.5;*/ /* Lower the opacity to desired level */
+/*z-index: -1;*/ /* Ensure the pseudo-element is behind the content */
+/*}*/
 
 .container {
     text-align: center; /* Center text and inline elements */
@@ -10,6 +29,7 @@
 
     .container h1,
     .container input {
+        color: oldlace;
         font-family: verdana;
         margin: 0 auto; /* Apply automatic horizontal margins to center block-level elements */
         display: block; /* Make input display as block-level to apply margins */
@@ -26,4 +46,14 @@
     padding: 20px;
     width: auto;
     align-items: Center;
+}
+
+.white-box {
+    background-color: white; /* Set the background color to white */
+    opacity: 0.3;
+    width: 30%; /* Set the width of the container (you can adjust this as needed) */
+    margin: 20px auto; /* Center the container horizontally and add vertical margin */
+    padding: 20px; /* Add some padding inside the container */
+    border: 1px solid #ccc; /* Optional: Add a light border around the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow to the container */
 }
