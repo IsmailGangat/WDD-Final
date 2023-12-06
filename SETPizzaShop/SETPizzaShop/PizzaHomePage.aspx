@@ -6,6 +6,7 @@
 <head runat="server">
     <title>SET Authentic Pizza</title>
     <link rel="stylesheet" type="text/css" href="PizzaStyleSheet.css"/>
+   
 </head>
 <body>
     <form id="form1" runat="server">
@@ -20,7 +21,8 @@
          <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="You must enter your name."
            ControlToValidate="nameBox" ForeColor="Red" Font-Size="large" BackColor="White">
          </asp:RequiredFieldValidator>
-         <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="CustomValidator"></asp:CustomValidator>
+         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Only letters are allowed."
+             controlTovalidate="nameBox" ValidationExpression="^[a-zA-Z\s]+$" ForeColor="Red" Font-Size="large" BackColor="White"></asp:RegularExpressionValidator>
       </div>
 
  </form>
