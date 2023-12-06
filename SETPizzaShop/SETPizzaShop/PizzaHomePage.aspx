@@ -9,14 +9,20 @@
 </head>
 <body>
     <form id="form1" runat="server">
-         <div class="container">
-              <h1 id="rcorners" >SET Pizza Shop</h1>
-         </div>
-        <div class="container">
-           <h1>Please enter firstname and lastname.</h1> <br />
-          <input id="Text1" type="text" />
-          <asp:Button ID="Button1" runat="server" Text="Submit" />
-         </div>
-    </form>
+     <div class="container">
+         <h1 id="rcorners" >SET Pizza Shop</h1>
+     </div>
+     <div class="container">
+         <h1>Please enter firstname and lastname.</h1> <br />
+         <asp:TextBox ID="nameBox" runat="server" Style="color:black" Font-Size="X-Large"></asp:TextBox>
+         <&nbsp> <&nbsp>
+         <asp:Button ID="NameCheckbtn" runat="server" Text="Submit" onclick="Check_Name" Style="background-color:darkred" Font-Size="X-Large"/>
+         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="You must enter your name."
+           ControlToValidate="nameBox" ForeColor="Red" Font-Size="large" BackColor="White">
+         </asp:RequiredFieldValidator>
+         <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="CustomValidator"></asp:CustomValidator>
+      </div>
+
+ </form>
 </body>
 </html>

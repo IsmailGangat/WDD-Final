@@ -11,7 +11,17 @@ namespace SETPizzaShop
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
 
+        }
+
+        protected void Check_Name(object sender, EventArgs e)
+        {
+
+            string username = nameBox.Text;
+            Session["customerName"] = username;
+
+            Response.Redirect("PizzaOrderPage.aspx");
         }
     }
 }
