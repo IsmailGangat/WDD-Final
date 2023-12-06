@@ -1,0 +1,29 @@
+﻿Body {
+    background-color: steelblue;
+}
+
+
+.container {
+    text-align: center; /* Center text and inline elements */
+    padding: 20px;
+}
+
+    .container h1,
+    .container input {
+        font-family: verdana;
+        margin: 0 auto; /* Apply automatic horizontal margins to center block-level elements */
+        display: block; /* Make input display as block-level to apply margins */
+    }
+
+#rcorners {
+    border-radius: 25px;
+    background: orange;
+    text-align: center;
+    font-family: verdana;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    width: auto;
+    align-items: Center;
+}
