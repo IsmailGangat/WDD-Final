@@ -57,3 +57,13 @@ H:\SET Program\Level 3\Web Design & Development\Assignments\WDDFinal\WDD-Final\S
 H:\SET Program\Level 3\Web Design & Development\Assignments\WDDFinal\WDD-Final\SETPizzaShop\SETPizzaShop\obj\Debug\SETPizzaShop.csproj.CopyComplete
 H:\SET Program\Level 3\Web Design & Development\Assignments\WDDFinal\WDD-Final\SETPizzaShop\SETPizzaShop\obj\Debug\SETPizzaShop.dll
 H:\SET Program\Level 3\Web Design & Development\Assignments\WDDFinal\WDD-Final\SETPizzaShop\SETPizzaShop\obj\Debug\SETPizzaShop.pdb
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\bin\SETPizzaShop.dll.config
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\bin\SETPizzaShop.dll
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\bin\SETPizzaShop.pdb
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\obj\Debug\SETPizzaShop.csproj.AssemblyReference.cache
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\obj\Debug\SETPizzaShop.csproj.CoreCompileInputs.cache
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\obj\Debug\SETPizzaShop.csproj.CopyComplete
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\obj\Debug\SETPizzaShop.dll
+C:\Users\igang\Desktop\PROG2001\WDD_Final\WDD-Final\SETPizzaShop\SETPizzaShop\obj\Debug\SETPizzaShop.pdb
