@@ -1,0 +1,17 @@
+#adiing unneccesory files to gitignore
+bin/
+obj/
+Properties/
+.vs/
+packages/
+
+#Visual Studio Files to Ignore
+*.SETPizzaShop.sln
+*.Global.asax
+*.Global.asax.cs
+*.packages.config
+*.SETPizzaShop.csproj
+*.SETPizzaShop.csproj.user
+*.Web.config
+*.Web.Debug.config
+*.Web.Release.config
